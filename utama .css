@@ -1,0 +1,146 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-image: linear-gradient(#444444, #660088, #330099)
+}
+/*
+
+#222222, #440066, #1100CC
+#333333, #550077, #2200AA
+#444444, #660088, #330099
+*/
+
+.spanatas{
+    color: #87CEEB;
+}
+
+.aatas{
+    font-size: 13px;
+    border: 1px solid white;
+    background-image:  linear-gradient(#444444, #660088, #330099);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    width: 45px;
+}
+
+.judul{
+    
+    color: white;
+    font-size: 20px;
+    display: inline-block
+    justify-content:center;
+    text-align:center ;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 70px;
+    
+}
+.jjudul{
+    font-size: 36px;
+    color: #2F1A44; /* Warna awal */
+    animation: transisi-warna 3s infinite; /* Animasi transisi warna */
+}
+
+@keyframes transisi-warna {
+  0% {
+    color: blue; /* Warna awal */
+  }
+  25% {
+      color: red;
+  }
+  50% {
+    color: yellow; /* Warna tengah */
+  }
+  75% {
+      color: green;
+  }
+  90% {
+    color: orange; /* Warna akhir */
+  }
+  100% {
+      color: blue;
+  }
+   
+   
+}
+
+.fotoatas{
+    border: 3px solid #87CEEB ;
+    background-color: #3B1F5B;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+   
+}
+
+.fotoatasnya{
+    border-radius: 10px;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.kontenatas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 70px;
+    border-bottom: 2px solid yellow;
+}
+
+.textprofil{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: Sans-Serif;
+    text-align:justify;
+    padding: 10px;
+    margin: 25px;
+    background-color: grey;
+}
+
+
+
+
+/* media queries*/
+
+/*laptop*/
+@media(max-width:1829px){
+    html{
+        font-size:12px;
+        margin: 5px;
+    }
+}
+
+/*tablet*/
+@media(max-width:768px){
+    html{
+        font-size: 11px;
+        margin: 3px;
+    }
+}
+
+/*handphone*/
+@media(max-width:400px){
+    html{
+        font-size: 10px;
+        margin: 1px;
+    }
+}
